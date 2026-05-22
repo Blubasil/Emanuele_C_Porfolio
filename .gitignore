@@ -1,5 +1,7 @@
 node_modules/
 dist/
+.vercel
+Emanuele_C_Porfolio/
 .DS_Store
 *.log
 

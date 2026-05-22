@@ -20,6 +20,16 @@ npm run preview
 
 Output is in `dist/`.
 
+## Deploy on Vercel
+
+The repo includes a `vercel.json` for automatic deploys from GitHub.
+
+1. Import [github.com/Blubasil/Emanuele_C_Porfolio](https://github.com/Blubasil/Emanuele_C_Porfolio) on [vercel.com/new](https://vercel.com/new)
+2. Use default settings (Vite — build `npm run build`, output `dist`)
+3. Deploy
+
+Or from the CLI: `npx vercel --prod`
+
 ## Controls
 
 - **Scroll** — move between pages (scroll-snap)
