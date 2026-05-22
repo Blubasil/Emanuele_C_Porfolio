@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Regenerate from PDF; WebP is used on the site
+public/assets/pages/*.png
+public/assets/images/

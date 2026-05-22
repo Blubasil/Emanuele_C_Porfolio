@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Emanuele Canova — Industrial design and innovation portfolio. Padova, Italy."
+    />
+    <title>Emanuele Canova — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#slide-1">Skip to portfolio</a>
+
+    <header class="site-header" data-theme="light">
+      <div class="site-header__rule site-header__rule--top" aria-hidden="true"></div>
+      <div class="site-header__inner">
+        <a href="#slide-1" class="site-header__brand">
+          <span class="site-header__brand-line">Emanuele Canova</span>
+          <span class="site-header__brand-line site-header__brand-line--sub">Portfolio</span>
+        </a>
+
+        <div class="site-header__current" aria-live="polite">
+          <div class="site-header__heading">
+            <span class="site-header__current-line" data-heading-1>Portfolio</span>
+            <span class="site-header__current-line site-header__current-line--emph" data-heading-2>About</span>
+          </div>
+          <div class="site-header__page">
+            <span class="site-header__page-num" data-page-num>01</span>
+            <span class="site-header__page-rule" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          class="site-header__toggle"
+          aria-expanded="false"
+          aria-controls="site-menu"
+        >
+          <span class="site-header__toggle-label">Sections</span>
+          <span class="site-header__toggle-bars" aria-hidden="true">
+            <span></span><span></span>
+          </span>
+        </button>
+      </div>
+
+      <nav id="site-menu" class="site-header__nav" aria-label="Portfolio sections">
+        <ul class="site-header__menu"></ul>
+      </nav>
+
+      <div class="site-header__rule site-header__rule--bottom" aria-hidden="true"></div>
+      <div class="site-header__progress">
+        <div class="site-header__progress-bar"></div>
+      </div>
+    </header>
+
+    <nav class="page-nav" aria-label="Quick page index">
+      <ol class="page-nav__list"></ol>
+    </nav>
+
+    <main id="portfolio" class="portfolio"></main>
+
+    <footer class="site-footer" data-theme="light">
+      <div class="site-footer__rule site-footer__rule--top" aria-hidden="true"></div>
+      <div class="site-footer__inner">
+        <div class="site-footer__year-block">
+          <span class="site-footer__year">2026</span>
+          <span class="site-footer__year-line" aria-hidden="true"></span>
+          <span class="site-footer__year-line site-footer__year-line--long" aria-hidden="true"></span>
+        </div>
+        <div class="site-footer__nav">
+          <button type="button" class="nav-btn nav-btn--prev" aria-label="Previous page">←</button>
+          <button type="button" class="nav-btn nav-btn--next" aria-label="Next page">→</button>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
